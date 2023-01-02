@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <StackPanel>
+        <Label Content="Tu wpisz wyraz" HorizontalAlignment="Center"/>
+        <TextBox x:Name="textIn" TextWrapping="Wrap" Width="120"/>
+        <RadioButton x:Name="small" Content="na male litery" GroupName="witam" HorizontalAlignment="Left"/>
+        <RadioButton x:Name="big" Content="na duze litery" GroupName="witam"/>
+        <RadioButton x:Name="palindrom" Content="czy palindrom" GroupName="witam"/>
+        <RadioButton x:Name="naPrzemian" Content="na przemian duza mala" GroupName="witam"/>
+        <RadioButton x:Name="naLiczby" Content="na liczby" GroupName="witam"/>
+        <RadioButton x:Name="ile" Content="ile liter" GroupName="witam"/>
+        <TextBlock x:Name="textOut" TextWrapping="Wrap" Text="wyjście" HorizontalAlignment="Center"/>
+        <Button x:Name="aa" Content="Wykonaj" Click="aa_Click"/>
+
+
+    </StackPanel>
+</Window>
